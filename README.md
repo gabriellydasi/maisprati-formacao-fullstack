@@ -1,7 +1,9 @@
+<img src="https://www.unisinos.br/noticias/wp-content/uploads/2020/08/2020-PraTI-Interna.jpg" width="1000">
+
 # Trilha Full Stack Developer Júnior +praTi
 O programa oferece uma experiência aprofundada em desenvolvimento web, abrangendo front-end e back-end, e capacita os participantes para criar aplicações web completas e funcionais. Com orientação de profissionais experientes, o curso combina conhecimento teórico com prática por meio de projetos interativos e desafios reais. Seu diferencial é a abordagem prática e envolvente, permitindo uma compreensão eficaz dos conceitos. Os 100 melhores alunos serão recomendados para vagas de Desenvolvedor Júnior nas empresas parceiras da +praTi.
 
-## Conteúdo
+## 📚 Conteúdo
 
 1. Lógica e Programação
 - Introdução: Conceitos fundamentais de Lógica de Programação, Git e Github.

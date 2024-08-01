@@ -31,6 +31,8 @@ switch(ageRange){
     case 'Adult':
         console.log('You are an adult.')
         break
+    case 'Elderly':
+        console.log('You are an elderly')
     default:
         console.log("Invalid age entered.")
         break

@@ -10,7 +10,9 @@ let n1 = Number(prompt('Enter the first grade: '))
 let n2 = Number(prompt('Enter the second grade: '))
 let n3 = Number(prompt('Enter the third grade: '))
 
-average = ((n1 + n2 + n3)/3)
+let grade 
+
+let average = ((n1 + n2 + n3)/3)
 
 if((average >= 90) && (average <= 100)){
     grade = 'A'

@@ -14,7 +14,7 @@ while(count < 50){
     }else if(num % 2 === 0){
         isPrime = false;
     }else{
-        for(let i = 3; i <= Math.sqrt(num); i += 2){
+        for(let i = 3; i <= Math.sqrt(num); i += 2){ // verificar se o número é divisível por qualquer número ímpar a partir de 3 até a raiz quadrada do número.
             if(num % i === 0){
                 isPrime = false;
                 break;
@@ -29,3 +29,5 @@ while(count < 50){
 
     num++;
 }
+
+

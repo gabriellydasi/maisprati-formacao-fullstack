@@ -23,11 +23,11 @@ movies.forEach(movie => { // Função anônima (arrow)
     } else {
         genreCount[movie.genre] = 1;
     }
-})
+});
 
 for (let genre in genreCount) {
     console.log(genreCount[genre] !== 1
         ? `There are ${genreCount[genre]} movies in the ${genre} genre.`
         : `There is ${genreCount[genre]} movie in the ${genre} genre.`
-    )
+    );
 }

@@ -1,6 +1,4 @@
-<img src="https://www.unisinos.br/noticias/wp-content/uploads/2020/08/2020-PraTI-Interna.jpg" width="1000">
-
-# Trilha Full Stack Developer Júnior +praTi
+# Trilha Full Stack Developer Júnior +praTi | Codifica Edu
 O programa oferece uma experiência aprofundada em desenvolvimento web, abrangendo front-end e back-end, e capacita os participantes para criar aplicações web completas e funcionais. Com orientação de profissionais experientes, o curso combina conhecimento teórico com prática por meio de projetos interativos e desafios reais. Seu diferencial é a abordagem prática e envolvente, permitindo uma compreensão eficaz dos conceitos. Os 100 melhores alunos serão recomendados para vagas de Desenvolvedor Júnior nas empresas parceiras da +praTi.
 
 ## 📚 Conteúdo
@@ -27,3 +25,14 @@ O programa oferece uma experiência aprofundada em desenvolvimento web, abrangen
 6. Carreira
 - Soft Skills: Comunicação eficaz, trabalho em equipe, gestão do tempo e inteligência emocional.
 - Mercado de Trabalho: Currículo, LinkedIn e Entrevistas.
+
+## 📝 Atividades
+<img src="https://skillicons.dev/icons?i=javascript" alt="My Skills" width=auto height="20" /> <b>   Javascript</b>
+
+* Módulo 01
+  * Atividades Extras (Opcional)
+    * Para garantir a funcionalidade do código, é necessário instalar o pacote local da biblioteca Node.js via terminal no VSCode utilizando o comando: ```npm install prompt-sync```. Os códigos fornecidos são parte do processo educativo, portanto, não necessariamente refletem as soluções mais diretas para os exercícios propostos.
+      * <a href="https://github.com/gabriellydasi/maisprati-formacao-fullstack/tree/main/modules/module%2001/homeworks/Extra%20Activities%20(Optional)/Control%20Structures%20-%20Conditionals">Estruturas de Controle: Condicionais</a></li>
+      * <a href="https://github.com/gabriellydasi/maisprati-formacao-fullstack/tree/main/modules/module%2001/homeworks/Extra%20Activities%20(Optional)/Control%20Structures%20-%20Repetition">Estruturas de Controle: Repetição</a>
+  * Atividades
+    * Lista de Exercícios 1 

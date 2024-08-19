@@ -36,7 +36,7 @@ O programa oferece uma experiência aprofundada em desenvolvimento web, abrangen
 * Atividades
   <br>
   Para garantir a funcionalidade do código, é necessário instalar o pacote local da biblioteca Node.js via terminal no VSCode utilizando o comando: ```npm install prompt-sync```. Os códigos fornecidos são parte do processo educativo, portanto, não necessariamente refletem as soluções mais diretas para os exercícios propostos.
-  * <a href="">Lista de Exercícios 1</a>
+  * <a href="https://github.com/gabriellydasi/maisprati-formacao-fullstack/tree/main/modules/module%2001/homeworks/Activities/Exercise%20List%201">Lista de Exercícios 1</a>
   
 * Atividades Extras (Opcional)
   <br>

@@ -1,7 +1,11 @@
 # Trilha Full Stack Developer Júnior +praTi | Codifica Edu
 O programa oferece uma experiência aprofundada em desenvolvimento web, abrangendo front-end e back-end, e capacita os participantes para criar aplicações web completas e funcionais. Com orientação de profissionais experientes, o curso combina conhecimento teórico com prática por meio de projetos interativos e desafios reais. Seu diferencial é a abordagem prática e envolvente, permitindo uma compreensão eficaz dos conceitos. Os 100 melhores alunos serão recomendados para vagas de Desenvolvedor Júnior nas empresas parceiras da +praTi.
 
-## 📚 Conteúdo
+## Sumário
+- [Conteúdo](#conteúdo)
+- [Atividades](#atividades)
+
+## Conteúdo
 
 1. Lógica e Programação
 - Introdução: Conceitos fundamentais de Lógica de Programação, Git e Github.
@@ -26,7 +30,7 @@ O programa oferece uma experiência aprofundada em desenvolvimento web, abrangen
 - Soft Skills: Comunicação eficaz, trabalho em equipe, gestão do tempo e inteligência emocional.
 - Mercado de Trabalho: Currículo, LinkedIn e Entrevistas.
 
-## 📝 Atividades
+## Atividades
 
 1. Módulo 01
 * Atividades

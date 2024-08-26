@@ -26,4 +26,8 @@ switch(option){
         break
     case 4:
         console.log(`${num1} / ${num2} =`, num1/num2)
+        break
+    default:
+        console.log('Error! Enter a valid option.')
+        break
 }

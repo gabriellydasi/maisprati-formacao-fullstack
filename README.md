@@ -1,3 +1,5 @@
+<img src="https://github.com/gabriellydasi/maisprati-formacao-fullstack/blob/main/MaisPraTi.png?raw=true" width="985" height="auto" alt="Wallpaper +praTi">
+
 # Trilha Full Stack Developer Júnior +praTi | Codifica Edu
 O programa oferece uma experiência aprofundada em desenvolvimento web, abrangendo front-end e back-end, e capacita os participantes para criar aplicações web completas e funcionais. Com orientação de profissionais experientes, o curso combina conhecimento teórico com prática por meio de projetos interativos e desafios reais. Seu diferencial é a abordagem prática e envolvente, permitindo uma compreensão eficaz dos conceitos. Os 100 melhores alunos serão recomendados para vagas de Desenvolvedor Júnior nas empresas parceiras da +praTi.
 
@@ -36,7 +38,7 @@ O programa oferece uma experiência aprofundada em desenvolvimento web, abrangen
 * Atividades
   <br>
   Para garantir a funcionalidade do código, é necessário instalar o pacote local da biblioteca Node.js via terminal no VSCode utilizando o comando: ```npm install prompt-sync```. Os códigos fornecidos são parte do processo educativo, portanto, não necessariamente refletem as soluções mais diretas para os exercícios propostos.
-  * <a href="">Lista de Exercícios 1</a>
+  * <a href="https://github.com/gabriellydasi/maisprati-formacao-fullstack/tree/main/modules/module%2001/homeworks/Activities/Exercise%20List%201">Lista de Exercícios 1</a>
   
 * Atividades Extras (Opcional)
   <br>

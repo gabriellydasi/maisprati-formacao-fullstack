@@ -11,4 +11,5 @@ git clone <maisprati-formacao-fullstack>
 ```
 Após o clone, entre no diretório do projeto e siga as instruções acima para instalar as dependências. 
 <br>
+
 Os códigos fornecidos são parte do processo educativo, portanto, não necessariamente refletem as soluções mais diretas para os exercícios propostos.

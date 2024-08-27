@@ -2,10 +2,12 @@ Para garantir a funcionalidade do código, é necessário ter o Node.js instalad
 ```
 npm install prompt-sync
 ```
+Isso instalará a biblioteca Node.js prompt-sync, necessária para a execução do código.
+<br>
 Se desejar rodar o código na sua própria máquina, primeiro clone o repositório utilizando o comando abaixo:
 ```
 git clone <maisprati-formacao-fullstack>
 ```
-Após o clone, entre no diretório do projeto e siga as instruções acima para instalar as dependências. Os códigos fornecidos são parte do processo educativo, portanto, não necessariamente refletem as soluções mais diretas para os exercícios propostos.
-
-
+Após o clone, entre no diretório do projeto e siga as instruções acima para instalar as dependências. 
+<br>
+Os códigos fornecidos são parte do processo educativo, portanto, não necessariamente refletem as soluções mais diretas para os exercícios propostos.

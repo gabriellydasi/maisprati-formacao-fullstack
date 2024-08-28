@@ -7,7 +7,7 @@ Isso instalará a biblioteca Node.js prompt-sync, necessária para a execução 
 
 Se desejar rodar o código na sua própria máquina, primeiro clone o repositório utilizando o comando abaixo:
 ```
-git clone <maisprati-formacao-fullstack>
+git clone <https://github.com/gabriellydasi/maisprati-formacao-fullstack>
 ```
 Após o clone, entre no diretório do projeto e siga as instruções acima para instalar as dependências. 
 <br>

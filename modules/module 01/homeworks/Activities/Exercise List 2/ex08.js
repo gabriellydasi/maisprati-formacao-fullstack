@@ -7,7 +7,7 @@
 const filmes = [
     {titulo: 'Donnie Darko', diretor: 'Richard Kelly', anoLancamento: 2001},
     {titulo: 'O Exterminador do Futuro', diretor: 'James Cameron', anoLancamento: 1984},
-    {titulo: 'Laranja Mecânica', diretor: '	Stanley Kubrick', anoLancamento: 1971}
+    {titulo: 'Laranja Mecânica', diretor: 'Stanley Kubrick', anoLancamento: 1971}
 ]
 
 let titulos = []

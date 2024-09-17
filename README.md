@@ -37,6 +37,7 @@ O programa oferece uma experiência aprofundada em desenvolvimento web, abrangen
 1. Módulo 01
 * Atividades
   * <a href="https://github.com/gabriellydasi/maisprati-formacao-fullstack/tree/main/modules/module%2001/homeworks/Activities/Exercise%20List%201">Lista de Exercícios 1</a>
+  * <a href="https://github.com/gabriellydasi/maisprati-formacao-fullstack/tree/main/modules/module%2001/homeworks/Activities/Exercise%20List%202">Lista de Exercícios 2</a>
   
 * Atividades Extras (Opcional)
    * <a href="https://github.com/gabriellydasi/maisprati-formacao-fullstack/tree/main/modules/module%2001/homeworks/Extra%20Activities%20(Optional)/Control%20Structures%20-%20Conditionals">Estruturas de Controle: Condicionais</a></li>

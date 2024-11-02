@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1b1a1a;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    background-color: #000000;
+    border-radius: 25px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: 0 3px 5px rgba(255, 0, 0, 0);
+    overflow: hidden;
+}
+
+.container h1{
+    font-weight: 800;
+}
+
+.header{
+    background-color: #00c3ff;
+    padding: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.form{
+    padding: 18px;
+}
+
+.form-content{
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-content label{
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.form-content input{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #7b7979;
+    background-color: #000000;
+    color: #fff;
+}
+
+.form-content a{
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button{
+    background-color: #00c3ff;
+    color: #fff;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.form button:hover{
+    background-color: #545151;
+}
+
+.form-content select {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #7b7979;
+    color: #fff;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+/* .form-content option{
+
+}*/
+
+.form-content textarea {
+    display: block;
+    width: 100%;
+    resize: none; 
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #7b7979;
+    background-color: #000000;
+    color: #fff;
+}
+
+.form-content input::placeholder, textarea::placeholder, textarea{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.form-content.error input {
+    border-color: #65d9ff;
+}
+
+.form-content.error a {
+    color: #65d9ff;
+    font-size: 12px;
+    visibility: visible;
+}
+
+.checkbox-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.terms-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+

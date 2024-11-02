@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ccc;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.body-manager {
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 800px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgb(163, 159, 159);
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+#add-task-btn{
+    margin-left: 8px;
+}
+
+#add-task-btn, .filter-btn{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(24, 2, 15);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.remove-btn, .edit-btn {
+    margin-left: 10px;
+    cursor: pointer;
+    color: red;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+filter.btn {
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.active-filter {
+    background-color: #969191;
+}
+
+.edit-btn{
+    color: rgb(98, 98, 100);
+}
+
+li{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

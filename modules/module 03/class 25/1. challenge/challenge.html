@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./challenge.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <h1>Cadastro de Usuário</h1>
+
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com">
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" placeholder="********">
+
+        <label for="confirmar-senha">Confirme sua senha</label>
+        <input type="password" id="confirmar-senha" name="confirmar-senha"placeholder="********">
+
+        <br>
+
+        <label for="pais">País</label>
+        <select name="pais" id="pais">
+            <option value="Brasil">Brasil</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Uruguai">Uruguai</option>
+        </select>
+        <br>
+
+        <label class="itens-genero">Gênero</label>
+        <div class="genero-container">
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label  for="masculino" class="inline-label">Masculino</label>
+
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label>
+
+            <input type="radio" id="outro" name="genero" value="outro">
+            <label for="outro">Outro</label>
+        </div>
+
+        <input type="checkbox" class="inline-label">
+        <label for="checkbox" class="inline-label">Aceito os termos de uso</label>
+        
+        <button type="submit">Cadastrar</button>
+
+    </form>
+</body>
+</html>

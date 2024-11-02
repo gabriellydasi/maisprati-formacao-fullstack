@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+form{
+    max-width: 600px;
+    margin: 20 px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+}
+
+h1{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.inline-label{
+    display: inline; /* Faz com que os elementos fiquem alinhados em linha */
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box; /* Faz com que as caixas de entrada não ultrapasse a área do formulário */
+}
+
+fieldset{
+    margin-top: 15px;
+    border: none;
+}
+
+input[type="checkbox"]{
+    width: auto;
+    margin-right: 5px;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: rgb(11, 138, 66);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.8s;
+}
+
+button:hover{
+    background-color: rgb(23, 200, 111);
+}

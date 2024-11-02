@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./forms.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <h1>Cadastro de Eventos</h1>
+
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com">
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" placeholder="********">
+
+        <label for="confirmar-senha">Confirme sua senha</label>
+        <input type="password" id="confirmar-senha" name="confirmar-senha"placeholder="********">
+
+        <label for="genero">Gênero</label>
+        <select name="genero" id="genero">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+        <br>
+
+        <label for="data-nascimento">Data de Nascimento</label>
+        <input type="date" id="data-nascimento">
+
+        <label for="pais">País</label>
+        <select name="pais" id="pais">
+            <option value=""></option>
+            <option value="Brasil">Brasil</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Uruguai">Uruguai</option>
+        </select>
+        <br>
+
+        <label for="estados">Estado</label>
+        <select name="estados" id="estados">
+            <option value=""></option>
+            <option value="Pernabuco">Pernambuco</option>
+            <option value="Paraíba">Paraíba</option>
+            <option value="Amazonas">Amazonas</option>
+        </select>
+        <br>
+
+        <fieldset> <!-- Agrupamento de coisas que têm relação entre si -->
+            <legend>Preferências de Comunicação</legend>
+
+            <input type="checkbox" id="email-novidades" name="email-novidades" value="email-novidades">
+            <label for="email-novidades" class="inline-label">Receber atualizações por e-mail</label>
+            <br>
+
+            <input type="checkbox" id="sms-novidades" name="sms-novidades" value="sms-novidades">
+            <label for="sms-novidades" class="inline-label">Receber atualizações por SMS</label>
+        </fieldset>
+        <br>
+
+        <label for="foto-perfil">Foto de perfil</label>
+        <input type="file" name="foto-perfil" id="foto-perfil">
+        
+        <button type="submit">Cadastrar</button>
+
+    </form>
+</body>
+</html>

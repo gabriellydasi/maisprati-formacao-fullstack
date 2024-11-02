@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, block, inline-block</title>
+
+    <style>
+        div, p, h1{
+            border: 1px solid blue;
+        }
+        
+        span, a, strong{
+            border: 1px solid red;
+        }
+
+        span{
+            display: inline-block;
+            height: 50px;
+            width: 120px;
+            text-align:center;
+        } /* inline-block dá mais liberdade para estilizar mantendo o blocos lado a lado */
+
+        a{
+            padding: 10px 10px; /* vertical e horizontal*/
+        }
+    </style>
+</head>
+<body>
+    <!-- Exemplo de tags block -->
+    <div>Teste</div> 
+    <p>Teste</p>
+    <h1>Teste</h1>
+    <!-- Elementos em bloco ocupam toda a largura do container -->
+
+    <!-- Exemplo de tags inline  -->
+    <span>Corvinal</span>
+    <a href="">Google</a>
+    <strong>Gabrielly</strong>
+    <!-- Elementos em inline ocupam apenas o espaço necessário para o seu conteúdo -->
+
+    <!-- inline-block combina características do block e inline-->
+</body>
+</html>

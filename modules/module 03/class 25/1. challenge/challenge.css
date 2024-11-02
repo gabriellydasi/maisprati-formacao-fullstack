@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.inline-label {
+    display: inline;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#pais {
+    margin-bottom: 8px;
+}
+
+.genero-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-right: 60px;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+label[for="checkbox"] {
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: rgb(11, 138, 66);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.8s;
+}
+
+button:hover {
+    background-color: rgb(23, 200, 111);
+}
+
+/* Media Query para telas menores que 600px (smartphones) */
+@media (max-width: 600px) {
+    body {
+        font-size: 13px; /* Diminui o tamanho da fonte geral */
+    }
+
+    form {
+        max-width: 100%;
+        margin: 10px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input, select {
+        padding: 8px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    /* Diminui o tamanho da fonte na área dos radios */
+    .genero-container {
+        gap: 4px; /* Diminui o espaçamento entre os itens */
+    }
+
+    .genero-container label {
+        font-size: 12px; /* Diminui o tamanho da fonte do label */
+    }
+
+    .genero-container input[type="radio"] {
+        width: auto; /* Mantém os botões de rádio na mesma linha */
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <section class="header">
+            <h1>Contato</h1>
+        </section>
+
+        <form id="form" class="form">
+            <div class="form-content">
+                <label for="username">Nome</label>
+                <input type="text" id="username" required pattern="" placeholder="Seu nome completo">
+                <a>Aqui vai a mensagem de erro...</a>
+            </div>
+
+            <div class="form-content">
+                <label for="username">E-mail</label>
+                <input type="email" id="email" placeholder="seuemail@exemplo.com">
+                <a>Aqui vai a mensagem de erro...</a>
+            </div>
+
+            <div class="form-content">
+                <label for="phone">Telefone (Opcional)</label>
+                <input type="tel" id="phone" name="phone" placeholder="(99) 99999-9999">
+            </div>
+
+            <div class="form-content">
+                <label for="subject">Assunto</label>
+                <select name="subject" id="subject">
+                    <option value="duvida">Dúvida</option>
+                    <option value="suporte">Suporte</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+                <a>Aqui vai a mensagem de erro...</a>
+            </div>
+
+            <div class="form-content">
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" rows="5" placeholder="Digite a sua mensagem"></textarea>
+            </div>
+
+            <div class="terms-container">
+                <div class="checkbox-container">
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">Aceito os Termos de Uso</label>
+                </div>
+            <button type="submit" id="submit-button" disabled>Enviar</button>
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            background-color: #e3e2e2;
+        }
+
+        .body-container {
+            display: block;
+            border: none;
+            border-radius: 20px;
+            padding: 20px;
+            width: 900px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            background-color: white;
+    
+        }
+
+        .title-container{
+            margin-bottom: 20px;
+        }
+
+        .input-container{
+            width: 836px;
+            margin-bottom: 10px;
+        }
+
+        .description-container {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #day, #month, #year, #type {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+            width: 19.7%;
+        }
+
+        #description {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 836px;
+            padding: 10px;
+            position: static;
+        }
+
+        #save-btn {
+            width: 70px;
+            height: 50px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="body-container">
+        <div class="title-container">
+            <h1>Register Task</h1>
+        </div>
+        <div class="input-container">
+            <label for="year">Year:</label>
+            <select name="year" id="year"></select>
+    
+            <label for="month">Month:</label>
+            <select name="month" id="month"></select>
+    
+            <label for="day">Day:</label>
+            <input type="number" min="1" max="31" name="day" id="day" placeholder="Day">
+    
+            <label for="type">Type:</label>
+            <input type="text" name="type" id="type" placeholder="Type">
+        </div>
+    
+        <div class="description-container">
+            <textarea name="description" id="description" class="description" placeholder="Description"></textarea>
+            <div>
+                <button id="save-btn" class="save-btn" type="submit">Save</button>
+            </div>
+        </div>
+    </div>
+
+<script src="./script.js"></script>
+</body>
+</html>

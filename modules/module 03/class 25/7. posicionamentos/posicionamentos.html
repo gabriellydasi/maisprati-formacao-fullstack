@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos</title>
+    <style>
+        .container{
+            position: relative;
+            background-color: #ccc;
+            width: 400px;
+            margin: 20px auto;border: 2px solid;
+            top: 10px;
+            left: 30px;
+        }
+
+        .absolute{
+            position: absolute; /* consegue movimentar o elemento, mas de forma relativa ao pai e não ao resto da tela*/
+            /* só funciona se o elemento pai tiver um posicionamento diferente de static */
+            border: 2px solid blue;
+            top: 30px;
+            right: 30px;
+            bottom: 10px;
+        }
+
+        .fixed{
+            position: fixed;
+            /* deixa de obedecer às regras do pai para obedecer às regras da janela do navergador (view port) */
+            border: 2px solid red;
+            top: 3px;
+            left: 10px; 
+            /* exemplo: elementos que ficam fixos no navegador*/
+        }
+
+        .sticky{
+            position: sticky;
+            top: 8;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exemplos de posicionamento</h1>
+        <p class="sticky">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro modi provident vero alias fuga non, ratione, aut perferendis expedita, perspiciatis velit. Quidem quaerat cumque officia quos ipsa minus sint explicabo!</p>
+
+        <p class="relative">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, dignissimos!</p>
+
+        <p class="absolute">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Eu estive aqui</span> Porro, atque nostrum maiores repellendus minus in eum quidem et quaerat fuga!</p>
+        
+        <p class="fixed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni unde, consequuntur laudantium quisquam, qui repudiandae voluptas quasi asperiores ratione sint nostrum velit aliquam facilis delectus debitis pariatur. Animi facilis ratione soluta atque id corporis possimus autem, laudantium porro sed neque.</p>
+    </div>
+</body>
+</html>

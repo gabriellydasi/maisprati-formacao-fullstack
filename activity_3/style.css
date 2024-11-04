@@ -19,7 +19,7 @@ body {
 
 @font-face {
     font-family: 'Blok';
-    src: url(/modules/module_03/activity_3/Blok.ttf) format('truetype');
+    src: url(/activity_3/Blok.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
